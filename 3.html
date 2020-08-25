@@ -1,28 +1,57 @@
 <!doctype html>
 <html>
 <head>
-  <title>WEB1 - JavaScript</title>
-  <meta charset="utf-8">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-176092146-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+      <title>WEB1 - JavaScript</title>
+      <meta charset="utf-8">
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-176092146-1"></script>
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
 
-  gtag('config', 'UA-176092146-1');
-</script>
+        gtag('config', 'UA-176092146-1');
+      </script>
+    <style>
+      body {
+        margin=0;
+      }
+      a {
+        color: black;
+        text-decoration: none;
+      }
+      #header {
+        font-size: 45px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+      }
+      ol {
+        border-right: 1px solid gray;
+        width: 100px;
+        margin-top: 0px;
+        padding: 20px;
+      }
+      #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
 
+
+    </style>
 </head>
 <body>
-  <h1><a href="index.html">WEB</a></h1>
-  <ol>
-    <li><a href="1.html"> HTML</a></li>
-    <li><a href="2.html"> CSS</a></li>
-    <li><a href="3.html"> JavaScript</a></li>
-  </ol>
+  <div id="header">
+  <a href="index.html">WEB</a>
+  </div>
+<div id=grid>
+    <ol>
+      <li><a href="1.html"> HTML</a></li>
+      <li><a href="2.html"> CSS</a></li>
+      <li><a href="3.html"> JavaScript</a></li>
+    </ol>
+  <div id=article>
   <h2>JavaScript</h2>
-  <img src="JS.png" width="70%">
+  <img src="JS.png" width="30%">
   <p>
     JavaScript often abbreviated as JS, is a programming language that conforms to the ECMAScript specification.[7] JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.
 
@@ -34,6 +63,8 @@ JavaScript engines were originally used only in web browsers, but they are now e
 
 Although there are similarities between JavaScript and Java, including language name, syntax, and respective standard libraries, the two languages are distinct and differ greatly in design.
   </p>
+  </div>
+</div>
   <p>
     <div id="disqus_thread"></div>
     <script>
